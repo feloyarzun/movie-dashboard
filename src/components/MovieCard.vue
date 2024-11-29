@@ -86,6 +86,10 @@ export default {
 }
 
 .movie-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px;
   text-align: center;
   width: 100%;
@@ -105,6 +109,7 @@ export default {
   max-height: 55px;
   overflow: hidden;
   text-overflow: ellipsis;
+  padding: 5px;
 }
 
 .movie-details {
@@ -113,6 +118,9 @@ export default {
   font-size: 0.85rem;
   color: #666;
   gap: 10px;
+  margin-top: auto;
+  height: 30px;
+  align-items: center;
 }
 
 .movie-rating {
@@ -141,6 +149,7 @@ export default {
 
   .movie-details {
     font-size: 0.75rem;
+    height: 25px;
   }
 }
 </style>
